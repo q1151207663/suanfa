@@ -1,4 +1,4 @@
-package 题型_一维结构_01.简单;
+package T01_题型_一维结构.简单;
 
 
 import java.util.Stack;
@@ -14,7 +14,7 @@ import java.util.Stack;
  * 2.push栈每次push给pop站必须将数据push空
  *
  */
-public class 简单_用栈结构实现队列_04 {
+public class N03_简单_用栈结构实现队列 {
 
 
     static class MyQueue {

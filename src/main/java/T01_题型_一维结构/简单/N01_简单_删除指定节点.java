@@ -1,6 +1,6 @@
-package 题型_一维结构_01.简单;
+package T01_题型_一维结构.简单;
 
-public class 简单_删除指定节点_02 {
+public class N01_简单_删除指定节点 {
     public static void main(String[] args) {
 
     }

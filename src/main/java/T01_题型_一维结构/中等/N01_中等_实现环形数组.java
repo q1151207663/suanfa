@@ -1,4 +1,4 @@
-package 题型_一维结构_01.中等;
+package T01_题型_一维结构.中等;
 
 
 /**
@@ -11,7 +11,7 @@ package 题型_一维结构_01.中等;
  *
  *
  */
-public class 中等_实现环形数组_01 {
+public class N01_中等_实现环形数组 {
 
     static class MyQueue {
         private int[] arr;

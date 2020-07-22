@@ -1,4 +1,4 @@
-package 题型_一维结构_01.中等;
+package T01_题型_一维结构.中等;
 
 
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 /**
  * 定义两个指针 pre 和 next
  */
-public class 中等_链表反转_03 {
+public class N03_中等_链表反转 {
     public static void main(String[] args) {
         ArrayList<Node> nodes = new ArrayList<>();
         Node head = new Node(1);

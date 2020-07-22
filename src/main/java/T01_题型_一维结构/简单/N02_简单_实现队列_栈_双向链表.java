@@ -1,6 +1,6 @@
-package 题型_一维结构_01.简单;
+package T01_题型_一维结构.简单;
 
-public class 简单_实现队列_栈_双向链表_03 {
+public class N02_简单_实现队列_栈_双向链表 {
 
     public static void main(String[] args) {
 

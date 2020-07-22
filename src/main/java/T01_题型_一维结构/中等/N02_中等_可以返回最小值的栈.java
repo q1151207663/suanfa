@@ -1,4 +1,4 @@
-package 题型_一维结构_01.中等;
+package T01_题型_一维结构.中等;
 
 import java.util.Stack;
 
@@ -11,7 +11,7 @@ import java.util.Stack;
  * 用两个栈，一个栈用于存放数据；另一个栈用于存放最小值
  *
  */
-public class 中等_可以返回最小值的栈_02 {
+public class N02_中等_可以返回最小值的栈 {
 
     /**
      * 最小数栈，第一种实现
