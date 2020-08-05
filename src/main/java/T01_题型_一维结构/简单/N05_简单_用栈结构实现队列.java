@@ -14,7 +14,7 @@ import java.util.Stack;
  * 2.push栈每次push给pop站必须将数据push空
  *
  */
-public class N03_简单_用栈结构实现队列 {
+public class N05_简单_用栈结构实现队列 {
 
 
     static class MyQueue {
