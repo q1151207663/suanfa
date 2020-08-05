@@ -38,6 +38,14 @@ public class N04_简单_利用ArrayList链表逆序 {
     /**
      * 解法二，递归解法
      */
+    ArrayList<Integer> list = new ArrayList<>();
+    public ArrayList<Integer> printListFromTailToHead2(ListNode listNode) {
+        if (listNode != null) {
+            printListFromTailToHead(listNode.next);
+            list.add(listNode.val);
+        }
+        return list;//题目正确需要return list，否则不需要
+    }
 
 
 }

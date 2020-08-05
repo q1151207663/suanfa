@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be667697-4f14-41ce-af3b-cfcba6095bbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/T01_题型_一维结构/简单/N04_简单_利用ArrayList链表逆序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/T01_题型_一维结构/中等/N03_中等_链表反转.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/T01_题型_一维结构/中等/N03_中等_链表逆序.java" afterDir="false" />
-    </list>
+    <list default="true" id="be667697-4f14-41ce-af3b-cfcba6095bbe" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +92,7 @@
       <module name="left_god_go" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="T01_题型_一维结构.中等.*" />
+          <option name="PATTERN" value="T01_题型_一维结构.简单.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N03_简单_用栈结构实现队列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="T01_题型_一维结构.简单.N03_简单_用栈结构实现队列" />
-      <module name="left_god_go" />
+    <configuration name="N05_简单_用栈结构实现队列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="T01_题型_一维结构.简单.N05_简单_用栈结构实现队列" />
+      <module name="suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="T01_题型_一维结构.中等.*" />
+          <option name="PATTERN" value="T01_题型_一维结构.简单.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,7 +116,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.N01_简单_并归排序" />
-        <item itemvalue="Application.N03_简单_用栈结构实现队列" />
+        <item itemvalue="Application.N05_简单_用栈结构实现队列" />
         <item itemvalue="Application.N02_中等_可以返回最小值的栈" />
       </list>
     </recent_temporary>
@@ -139,7 +134,7 @@
       <workItem from="1595122971608" duration="23604000" />
       <workItem from="1595253985859" duration="1128000" />
       <workItem from="1595424952659" duration="5136000" />
-      <workItem from="1596612274181" duration="339000" />
+      <workItem from="1596612274181" duration="758000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1595426524866</created>
@@ -168,6 +163,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="305" y="124" key="search.everywhere.popup" timestamp="1596612559462">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" key="search.everywhere.popup/0.0.1280.800/1280.0.2048.1152@0.0.1280.800" timestamp="1596612559462" />
   </component>
   <component name="masterDetails">
     <states>
