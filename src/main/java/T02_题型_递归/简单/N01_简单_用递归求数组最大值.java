@@ -16,10 +16,9 @@ public class N01_简单_用递归求数组最大值 {
     /**
      * 求数组中的最大值
      * @param arr TODO
-     * @return TODO
      */
-    private static int getMax(int[] arr) {
-        return process(arr ,0 ,arr.length-1);
+    private static void getMax(int[] arr) {
+        process(arr, 0, arr.length - 1);
     }
 
 

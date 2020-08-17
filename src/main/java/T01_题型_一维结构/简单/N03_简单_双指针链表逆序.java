@@ -7,14 +7,6 @@ import java.util.ArrayList;
  * 定义两个指针 pre 和 next
  */
 public class N03_简单_双指针链表逆序 {
-    public static void main(String[] args) {
-        ArrayList<Node> nodes = new ArrayList<>();
-        Node head = new Node(1);
-        nodes.add(new Node(2));
-        nodes.add(new Node(3));
-        nodes.add(new Node(4));
-
-    }
 
 
     /**
