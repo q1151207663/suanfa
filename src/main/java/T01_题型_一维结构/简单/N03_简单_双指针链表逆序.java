@@ -19,17 +19,17 @@ public class N03_简单_双指针链表逆序 {
 
     /**
      * 单链表倒序，并返回头结点
-     * @param head
-     * @return
+     * @param head head指针
+     * @return 逆序后的头节点
      */
     private static Node revLinkedList(Node head) {
-        Node pre = null;
-        Node next ;
+        Node pre = null;//head指针的前一个节点
+        Node next ;//head指针的后一个节点
 
         while (head != null) {
 
             next = head.next;
-            head.next = pre ;//next指针往前指
+            head.next = pre ;//next指针往前指(逆序)
 
             pre = head ;//往后推进
             head = next;
