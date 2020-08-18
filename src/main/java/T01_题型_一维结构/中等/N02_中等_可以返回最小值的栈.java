@@ -20,8 +20,8 @@ public class N02_中等_可以返回最小值的栈 {
      * 第二种实现知识稍微改变了一下 最小数栈的 出入栈规则而已
      */
     public static class MyStack {
-        private Stack<Integer> stackData = new Stack<>();
-        private Stack<Integer> stackMin = new Stack<>();
+        private final Stack<Integer> stackData = new Stack<>();
+        private final Stack<Integer> stackMin = new Stack<>();
 
 
         /**

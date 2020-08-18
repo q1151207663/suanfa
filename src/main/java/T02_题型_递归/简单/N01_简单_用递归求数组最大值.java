@@ -17,8 +17,8 @@ public class N01_简单_用递归求数组最大值 {
      * 求数组中的最大值
      * @param arr TODO
      */
-    private static void getMax(int[] arr) {
-        process(arr, 0, arr.length - 1);
+    private static int getMax(int[] arr) {
+        return process(arr, 0, arr.length - 1);
     }
 
 
@@ -34,8 +34,8 @@ public class N01_简单_用递归求数组最大值 {
             return arr[L];
         }
 
-//        int mid = (L+R)/2;
-        int mid = L + ((R-L) >> 1);//中点
+        int mid = (L + R) >> 1;
+//        int mid = L + ((R-L) >> 1);//中点
 
         int leftMax = process(arr ,L ,mid);
         int rightMax = process(arr ,mid+1 ,R);
@@ -46,9 +46,9 @@ public class N01_简单_用递归求数组最大值 {
 
 
     public static void main(String[] args) {
-        int[] arr = new int[5];
+        int[] arr = new int[]{1 ,12 ,3 ,4 ,5};
 
-        getMax(arr);
+        System.out.println(getMax(arr));
     }
 
 }
