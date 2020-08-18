@@ -14,13 +14,13 @@ import java.util.Stack;
  * 2.push栈每次push给pop站必须将数据push空
  *
  */
-public class N05_简单_用栈结构实现队列 {
+public class N05_简单_用栈实现队列 {
 
 
     static class MyQueue {
 
-        private Stack<Integer> stackPush = new Stack<>();
-        private Stack<Integer> stackPop = new Stack<>();
+        private final Stack<Integer> stackPush = new Stack<>();
+        private final Stack<Integer> stackPop = new Stack<>();
 
 
         /**

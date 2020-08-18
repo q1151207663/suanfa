@@ -3,16 +3,22 @@ package T01_题型_一维结构.简单;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * @program: suanfa
  * @description: 剑指offer
  * @author: twz
  * @create: 2020-08-05 15:25
+ *
+ * 三种解法：
+ * 1、利用ArrayList取巧、list.add(0 ,tmp.val)
+ * 2、利用栈
+ * 3、递归
  **/
-public class N04_简单_利用ArrayList链表逆序 {
+public class N04_简单_从尾到头打印链表 {
 
-    class ListNode{
+    static class ListNode{
         int val ;
         ListNode next = null;
 
@@ -22,7 +28,7 @@ public class N04_简单_利用ArrayList链表逆序 {
     }
 
     /**
-     * 解法一，非递归解法
+     * 解法一，ArrayList取巧
      */
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         ArrayList<Integer> list = new ArrayList<>();
@@ -36,10 +42,28 @@ public class N04_简单_利用ArrayList链表逆序 {
 
 
     /**
-     * 解法二，递归解法
+     * 解法二，利用栈
+     */
+    ArrayList<Integer> printListFromTailToHead2(ListNode listNode) {
+        ArrayList<Integer> list = new ArrayList<>();
+        Stack<Integer> stack = new Stack<>();
+
+        while (listNode != null) {
+            stack.push(listNode.val);
+            listNode = listNode.next;
+        }
+        while (!stack.isEmpty()) {
+            list.add(stack.pop());
+        }
+        return list;
+    }
+
+
+    /**
+     * 解法三，递归解法
      */
     ArrayList<Integer> list = new ArrayList<>();
-    public ArrayList<Integer> printListFromTailToHead2(ListNode listNode) {
+    public ArrayList<Integer> printListFromTailToHead3(ListNode listNode) {
         if (listNode != null) {
             printListFromTailToHead(listNode.next);
             list.add(listNode.val);
