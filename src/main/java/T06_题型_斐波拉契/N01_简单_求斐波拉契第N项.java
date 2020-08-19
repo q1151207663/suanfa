@@ -8,10 +8,10 @@ package T06_题型_斐波拉契;
  */
 public class N01_简单_求斐波拉契第N项 {
 
-    public static void main(String[] args) {
-        System.out.println(fibonacci(45));
-        System.out.println(fibonacci2(45));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(fibonacci(45));
+//        System.out.println(fibonacci2(45));
+//    }
 
 
 

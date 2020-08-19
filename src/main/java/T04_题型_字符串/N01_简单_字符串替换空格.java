@@ -2,12 +2,21 @@ package T04_题型_字符串;
 
 public class N01_简单_字符串替换空格 {
 
+    public static void main(String[] args) {
+        System.out.println(test("a b c defg h"));
+        System.out.println(replaceSpace("a b c defg h"));
+    }
+
+
+
+
+
     /**
      * 将空格替换为%20，时间复杂度O(n)
      * @param str
      * @return
      */
-    String replaceSpace(String str) {
+    static String replaceSpace(String str) {
         if (str == null)
             return null;
 
@@ -20,6 +29,11 @@ public class N01_简单_字符串替换空格 {
             }
         }
         return String.valueOf(sb);
+    }
+
+
+    static String test(String str) {
+        return str.replaceAll(" " ,"%20");
     }
 
 

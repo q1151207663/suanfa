@@ -30,7 +30,7 @@ public class N01_简单_用递归求数组最大值 {
      * @return todo
      */
     private static int process(int[] arr, int L, int R) {
-        if (L==R) {
+        if (L == R) {
             return arr[L];
         }
 
